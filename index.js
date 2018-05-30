@@ -1,2 +1,2 @@
-console.log("Let's go to Mars");
-console.log("Hello Mars");
+console.log("Let's go to Mars!!");
+console.log("Hello Mars!!");
