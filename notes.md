@@ -93,3 +93,10 @@ The npm version command automatically adds a new tag to the git repository and
 makes a commit with the version number as message.
 
 Note: The version number of using "npm version" has a "v" as prefix.
+
+Publish the new version:
+```
+git push --tags
+git push
+git publish
+```
