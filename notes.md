@@ -89,5 +89,7 @@ npm version minor
 npm version major
 ```
 
-npm version do an automatically git commit with the
-new version number as message.
+The npm version command automatically adds a new tag to the git repository and
+makes a commit with the version number as message.
+
+Note: The version number of using "npm version" has a "v" as prefix.
