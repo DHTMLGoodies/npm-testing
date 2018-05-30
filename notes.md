@@ -96,7 +96,26 @@ Note: The version number of using "npm version" has a "v" as prefix.
 
 Publish the new version:
 ```
-git push --tags
 git push
+git push --tags
 git publish
 ```
+
+Publishing a Beta
+
+```
+version="1.0.0-beta.0"
+git add .
+git commit -m "message"
+git tag "1.0.0-beta.0"
+git push
+git push --tags
+git publish --tag beta
+````
+
+### Package info
+```
+npm info <package>
+```
+
+
